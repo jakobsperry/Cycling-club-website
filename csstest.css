@@ -3,11 +3,11 @@
 
 .title {
 font-family: "Minion Pro", light;
-font-size:32pt;
+font-size:3vw;
 color:rgb(172,43,55);
-vertical-align: top;
-margin-top: 12pt;
-margin-bottom: -4pt
+vertical-align: center;
+margin-top: 0;
+margin-bottom: 0
 
 }
 
@@ -31,7 +31,7 @@ margin-bottom: -4pt
 
 .heading {
   font-family: "Roboto", light;
-  font-size:20pt;
+  font-size:2vw;
   color: rgb(50,50,50);
   vertical-align: top;
   margin-top: 12pt;
@@ -55,7 +55,7 @@ hr {
 
 .menue {
   float: left;
-  font-size: 14pt;
+  font-size: 10pt;
   color:rgb(172,43,55);
   margin-top: 1pt;
   margin-bottom: 1pt;
@@ -65,7 +65,8 @@ hr {
 
 .logo {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: ce;
+  width: 10vw
 
 }
 
@@ -97,10 +98,12 @@ hr {
 
 .div1 {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
 }
 .div2 {
     display: inline-block;
+    vertical-align: center;
+
 }
 
 
@@ -108,7 +111,7 @@ hr {
   border-radius: 8pt 8pt 0pt 0pt;
   color: rgb(172,43,55);
   padding: 10px;
-  font-size: 16px;
+  font-size: 1vw;
   border: none;
   background-color: inherit;
 }
