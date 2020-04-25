@@ -1,0 +1,98 @@
+/* myStyle.css */
+
+
+.title {
+font-family: "Minion Pro", light;
+font-size:24pt;
+color:rgb(172,43,55);
+vertical-align: top;
+margin-top: 12pt;
+margin-bottom: 0pt
+
+}
+
+.title a {text-decoration: none; padding:0px; color: rgb(172,43,55)}
+
+
+
+.menue a {
+
+  display: block;
+  padding: 8pt;
+  text-decoration: none;
+
+}
+
+
+.menue {
+  float: left;
+  font-size: 14pt;
+  color:rgb(172,43,55);
+  margin-top: 1pt;
+  margin-bottom: 1pt;
+  vertical-align: bottom;
+}
+
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+
+.background {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 18px;
+
+}
+
+.div1 {
+    display: inline-block;
+    vertical-align: top;
+}
+.div2 {
+    display: inline-block;
+}
+
+
+.dropbtn {
+   border-radius: 8pt 8pt 0pt 0pt;
+  background-color: white;
+  color: rgb(172,43,55);
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+border-radius:  0pt 8pt 8pt 8pt;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150pt;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
