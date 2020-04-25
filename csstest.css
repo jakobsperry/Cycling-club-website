@@ -3,11 +3,11 @@
 
 .title {
 font-family: "Minion Pro", light;
-font-size:24pt;
+font-size:32pt;
 color:rgb(172,43,55);
 vertical-align: top;
 margin-top: 12pt;
-margin-bottom: 0pt
+margin-bottom: -4pt
 
 }
 
@@ -21,6 +21,35 @@ margin-bottom: 0pt
   padding: 8pt;
   text-decoration: none;
 
+}
+
+.center{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.heading {
+  font-family: "Roboto", light;
+  font-size:20pt;
+  color: rgb(50,50,50);
+  vertical-align: top;
+  margin-top: 12pt;
+  margin-bottom: 10pt
+}
+
+.body {
+  font-family: "Roboto", light;
+  font-size:12pt;
+  color:rgb(50,50,50);
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-bottom: 5pt
+}
+
+hr {
+  border: 2px solid rgb(50,50,50);
+  border-radius: 2px;
 }
 
 
@@ -76,12 +105,12 @@ margin-bottom: 0pt
 
 
 .dropbtn {
-   border-radius: 8pt 8pt 0pt 0pt;
-  background-color: white;
+  border-radius: 8pt 8pt 0pt 0pt;
   color: rgb(172,43,55);
-  padding: 12px;
+  padding: 10px;
   font-size: 16px;
   border: none;
+  background-color: inherit;
 }
 
 .dropdown {
