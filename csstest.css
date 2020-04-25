@@ -40,7 +40,6 @@ margin-bottom: 0pt
 
 }
 
-
 .background {
   width: 100%;
   margin: 0px;
@@ -51,6 +50,19 @@ margin-bottom: 0pt
   background-size: cover;
   border-radius: 18px;
 
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .div1 {
